@@ -1,0 +1,85 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+    header .logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    header nav ul {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+    }
+
+        header nav ul li {
+            display: inline;
+        }
+
+            header nav ul li a {
+                color: #fff;
+                text-decoration: none;
+                padding: 5px 10px;
+            }
+
+.banner {
+    background-image: url('anime_background.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner-text h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.banner-text p {
+    font-size: 18px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.anime-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.anime-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    padding: 20px;
+}
+
+    .anime-item img {
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
